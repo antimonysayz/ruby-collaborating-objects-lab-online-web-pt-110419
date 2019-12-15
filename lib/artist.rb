@@ -40,6 +40,7 @@ class Artist
       if song.artist == self
         @songs << song
       end
+    end
       @songs
   end
   
